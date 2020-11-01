@@ -2,5 +2,19 @@
 <html>
 <body>
 <h1>My name is Samuel Demero and my hobby is learning new things on youtube and building my car. </h1>
+  
+  <button id="myBtn">Tap here to get the date</button>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", displayDate);
+
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+
 </body>
 </html>
